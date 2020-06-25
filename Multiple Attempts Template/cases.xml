@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+    <definition>
+        <id>cases</id>
+        <title>Cases</title>
+        <datasetType>SERVER</datasetType>
+        <fieldNames>id,label,formids,users,roles,sortby,full_name,address,num_calls,last_call_status,needs_review,callback_time,contacts,best_phone,phone_1,phone_1_name,phone_1_rel,phone_2,phone_2_name,phone_2_rel,phone_3,phone_3_name,phone_3_rel,phone_4,phone_4_name,phone_4_rel,phone_5,phone_5_name,phone_5_rel,attempt_1_time,attempt_1_status,attempt_2_time,attempt_2_status,attempt_3_time,attempt_3_status,attempt_4_time,attempt_4_status,attempt_5_time,attempt_5_status,attempt_6_time,attempt_6_status,consent,now_complete,now_closed,phones_filter,comments,attemptany</fieldNames>
+        <formLinks>
+            <formLink>
+                <formId>cati_advanced_kit</formId>
+            </formLink>
+        </formLinks>
+        <dataLinks>
+            <dataLink>
+                <dataLinkClass>FORM</dataLinkClass>
+                <dataLinkType>INCOMING</dataLinkType>
+                <linkObjectId>cati_advanced_kit</linkObjectId>
+                <fieldMap>{"caseid":"id","primary_phone":"best_phone","name_ph1":"phone_1_name","name_ph2":"phone_2_name","name_ph3":"phone_3_name","rel_ph1":"phone_1_rel","rel_ph2":"phone_2_rel","rel_ph3":"phone_3_rel","filter_phones":"phones_filter","callback_time":"callback_time","new_sortby":"sortby","consent":"consent","call_status_label":"last_call_status","call_num":"num_calls","needs_review":"needs_review","now_complete":"now_complete","pub_to_users":"users","attempt_1_time":"attempt_1_time","attempt_2_time":"attempt_2_time","attempt_3_time":"attempt_3_time","attempt_4_time":"attempt_4_time","attempt_5_time":"attempt_5_time","attempt_6_time":"attempt_6_time","attempt_1_status":"attempt_1_status","attempt_2_status":"attempt_2_status","attempt_3_status":"attempt_3_status","attempt_4_status":"attempt_4_status","attempt_5_status":"attempt_5_status","attempt_6_status":"attempt_6_status","instanceName":"label","phone2":"phone_2","phone3":"phone_3","update_contacts":"contacts","name_ph4":"phone_4_name","name_ph5":"phone_5_name","rel_ph4":"phone_4_rel","rel_ph5":"phone_5_rel","phone4":"phone_4","phone5":"phone_5","now_closed":"now_closed","comments":"comments", "attemptany":"lastdayattempt"}</fieldMap>
+                <joiningField>caseid</joiningField>
+                <relevanceField></relevanceField>
+            </dataLink>
+        </dataLinks>
+        <caseManagementOptions>
+            <displayMode>table</displayMode>
+            <showFinalizedSentWhenTree>true</showFinalizedSentWhenTree>
+            <showColumnsWhenTable>
+                <columnNames>id</columnNames>
+                <columnNames>full_name</columnNames>
+                <columnNames>address</columnNames>
+                <columnNames>last_call_status</columnNames>
+                <columnNames>num_calls</columnNames>
+			<columnNames>lastdayattempt</columnNames>
+            </showColumnsWhenTable>
+        </caseManagementOptions>
+    </definition>
+    <instance>
+        <version>1</version>
+    </instance>
+</dataset>
