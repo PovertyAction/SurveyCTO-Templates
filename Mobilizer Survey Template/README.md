@@ -1,7 +1,11 @@
 # README
 The Mobilizer Survey Template is designed for a sample where you do not know the respondent's availability or preferred language. There are 2 xlsforms with for 2 different roles: the mobilizer and the enumerator. The mobilizer calls the respondent, creates an appointment time if the respondent answers, and records the respondent's preferred language. This allows the enumerators to only call respondents who have expressed interest, set an appointment, and speak the same language.
 
-## Expected Workflow
+**Table of Contents**
+* [Expected Workflow](#workflow)
+* [Files](#files)
+
+## Workflow
 All respondents to be reached are added to the cases file and assigned to the user mobilizer and the mobilizer form ID. Mobilizers log in with their username and password.
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Mobilizer%20Survey%20Template/readme%20images/mobilizer%20login.jpg" width="200" />
@@ -31,7 +35,7 @@ The english user can now call the respondent at the assigned time and conduct th
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Mobilizer%20Survey%20Template/readme%20images/consented.jpg" width="200" /> <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Mobilizer%20Survey%20Template/readme%20images/finalize%20form.jpg" width="200" /> <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Mobilizer%20Survey%20Template/readme%20images/manage%20cases.jpg" width="200" /> <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Mobilizer%20Survey%20Template/readme%20images/no%20cases%20english.jpg" width="200" /> 
 
 
-## The Files
+## Files
 
 ### cases.xml
 
