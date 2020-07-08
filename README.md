@@ -2,6 +2,8 @@
 
 In order to facilitate Computer-Assisted Telephone Interviewing (CATI) during the COVID-19 pandemic, SurveyCTO created the [CATI Starter kit](https://support.surveycto.com/hc/en-us/articles/360044958494-Computer-Assisted-Telephone-Interviewing-CATI-starter-kit), a collection of resources and templates for creating a phone survey in SurveyCTO. Different projects at IPA have created templates based on the CATI Starter kit that address common issues encountered when conducting phone surveys.
 
+Email [researchsupport@poverty-action.org](mailto:poverty-action.org) with any questions, comments, issues, or additions.
+
 ## 1. Multiple Attempts Template
 *Created by [Mehrab Ali](https://www.poverty-action.org/people/mehrab-ali)*
 
