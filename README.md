@@ -12,5 +12,4 @@ The Multiple Attempts Template allows enumerators to submit one form per day for
 ## 2. Mobilizer Survey Template
 *Created by [Ishmail Azindoo Baako](https://www.poverty-action.org/people/ishmail-azindoo-baako)*
 
-The Mobilizer Survey Template includes two xlsforms: the __Mobilizer Form__ and the __Phone Survey Form__. This template is useful when you do not have previous information about your survey sample. The mobilizer form is used by the mobilizer, who calls respondents to set availability for the phone survey and find the language the respondent would prefer to speak to conduct the survey. Cases are then assigned to the phone survey form by matching them to enumerators who speak the same language.
-
+The Mobilizer Survey Template includes two xlsforms: the __Mobilizer Form__ and the __Phone Survey Form__. This template is useful when you do not have previous information about your survey sample. The mobilizer form is used by the mobilizer, who calls respondents to check respondents' availability for the phone survey as well as the language in which the respondent would prefer to be surveyed. Cases are then assigned to the phone survey form by matching them to enumerators who speak the same language.
