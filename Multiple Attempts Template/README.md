@@ -1,5 +1,5 @@
 # README
-Instead of submitting forms for each attempt, submitting one form per day and storing attempts per day inside the form. This template is built on the advanced CATI template developed by SurveyCTO. Please read the SurveyCTO CATI [documentation](https://www.surveycto.com/blog/surveycto-cati/) for further details.
+Instead of submitting forms for each attempt, submitting one form per day and storing attempts per day inside the form. This template is built on the advanced CATI template developed by SurveyCTO. Please read the SurveyCTO CATI [documentation](https://www.surveycto.com/blog/surveycto-cati/) for further details. Please note that this template can calculate attempts if SurveyCTO field plug-in [Phone call dialer](https://github.com/surveycto/phone-call-dialer/blob/master/README.md) is used. This template will not work if no plug-in or Phone call(https://github.com/surveycto/phone-call/blob/master/README.md) plug-in is used instead.
 
 ## Attempt variables in data
 `attemptthis*` Repeated for each phone number. Records number of times called in corresponding phone number.
