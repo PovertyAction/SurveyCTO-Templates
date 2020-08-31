@@ -11,7 +11,9 @@ Instead of submitting forms for each attempt, submitting one form per day and st
 
 ## Variables to be deleted from data:
 The form generates series of calculate varibales which are safe to drop from the survey dataset.
-Stata code: `drop plugin_metadata plugin_len broken_index_* character_*`
+Stata code: 
+
+`drop plugin_metadata plugin_len broken_index_* character_*`
 
 
 ## cases.xml file variables:
