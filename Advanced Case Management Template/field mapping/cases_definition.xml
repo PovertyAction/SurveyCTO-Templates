@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+    <definition>
+        <id>cases</id>
+        <title>cases</title>
+        <datasetType>SERVER</datasetType>
+        <fieldNames>id,label,formids,users,roles,name,wave,treatment_assignment,document_number_complete,email1,email2,address1,address2,contact_1_name,contact_phone_1_3,contact_phone_1_2,contact_phone_1_1,contact_2_name,contact_phone_2_3,contact_phone_2_2,contact_phone_2_1,contact_3_name,contact_phone_3_3,contact_phone_3_2,contact_phone_3_1,contact_4_name,contact_phone_4_3,contact_phone_4_2,contact_phone_4_1,contact_5_name,contact_phone_5_3,contact_phone_5_2,contact_phone_5_1,contact_6_name,contact_phone_6_3,contact_phone_6_2,contact_phone_6_1,total_phones,total_contacts,total_contact_1_phones,total_contact_2_phones,total_contact_3_phones,total_contact_4_phones,total_contact_5_phones,total_contact_6_phones,total_phones_all_original,phone_1,phone_2,phone_3,phone_4,phone_5,phones_filter,phones_filter_oth,last_callback,pub_to_users,phones_filter_contact_1,phones_filter_contact_2,phones_filter_contact_3,phones_filter_contact_4,phones_filter_contact_5,phones_filter_contact_6,phones_filter_contact_all,contacts_filter_exclude_who,phone_6,phone_7,document_number,caseid,SubmissionDate,reschedule_full,attempts,total_phones_original,total_contact_1_phones_original,total_contact_2_phones_original,total_contact_3_phones_original,total_contact_4_phones_original,total_contact_5_phones_original,total_contact_6_phones_original,total_contacts_original,enumerator,last_call_status,time_last_call,stop_at,ph_filter_contact_all,surveyor,contact_1_relation,contact_2_relation,contact_3_relation,contact_4_relation,contact_5_relation,contact_6_relation,phone_1_calls,phone_2_calls,phone_3_calls,phone__calls,phone_4_calls,phone_5_calls,phone_6_calls,phone_7_calls</fieldNames>
+        <formLinks>
+            <formLink>
+                <formId>advanced_cm_template</formId>
+            </formLink>
+        </formLinks>
+        <dataLinks>
+            <dataLink>
+                <dataLinkClass>FORM</dataLinkClass>
+                <dataLinkType>INCOMING</dataLinkType>
+                <linkObjectId>advanced_cm_template</linkObjectId>
+                <fieldMap>{"caseid":"id","pub_callback_time":"last_callback","pub_to_users":"users","pub_filter_phones":"phones_filter","pub_filter_contact1_ph":"phones_filter_contact_1","pub_filter_contact2_ph":"phones_filter_contact_2","pub_filter_contact3_ph":"phones_filter_contact_3","pub_filter_contact4_ph":"phones_filter_contact_4","pub_filter_contact5_ph":"phones_filter_contact_5","pub_filter_contact6_ph":"phones_filter_contact_6","pub_update_contact1_ph":"total_contact_1_phones","pub_update_contact2_ph":"total_contact_2_phones","pub_update_contact3_ph":"total_contact_3_phones","pub_update_contact4_ph":"total_contact_4_phones","pub_update_contact5_ph":"total_contact_5_phones","pub_update_contact6_ph":"total_contact_6_phones","pub_update_phones":"total_phones","pub_update_contacts":"total_contacts","pub_filter_excl_cont":"contacts_filter_exclude_who","call_num":"attempts","pub_updatetotallorigph":"total_phones_all_original","pub_update_tot_ph_orig":"total_phones_original","pub_update_phone_2":"phone_2","pub_update_phone_3":"phone_3","pub_update_phone_4":"phone_4","pub_update_phone_5":"phone_5","pub_update_phone_6":"phone_6","pub_update_phone_7":"phone_7","pub_case_status_desc":"last_call_status","SubmissionDate":"time_last_call","pub_update_stop_at":"stop_at","pub_name":"name","pub_phone_1_calls":"phone_1_calls","pub_phone_2_calls":"phone_2_calls","pub_phone_3_calls":"phone_3_calls","pub_phone_4_calls":"phone_4_calls","pub_phone_5_calls":"phone_5_calls","pub_phone_6_calls":"phone_6_calls","pub_phone_7_calls":"phone_7_calls"}</fieldMap>
+                <joiningField>caseid</joiningField>
+                <relevanceField></relevanceField>
+            </dataLink>
+        </dataLinks>
+        <caseManagementOptions>
+            <displayMode>table</displayMode>
+            <showFinalizedSentWhenTree>true</showFinalizedSentWhenTree>
+            <showColumnsWhenTable>
+                <columnNames>id</columnNames>
+                <columnNames>name</columnNames>
+                <columnNames>attempts</columnNames>
+                <columnNames>last_callback</columnNames>
+            </showColumnsWhenTable>
+        </caseManagementOptions>
+    </definition>
+    <instance>
+        <version>28</version>
+    </instance>
+</dataset>
