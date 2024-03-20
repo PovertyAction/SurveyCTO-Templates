@@ -1,11 +1,13 @@
 # SurveyCTO-Templates
 
-In order to facilitate Computer-Assisted Telephone Interviewing (CATI) during the COVID-19 pandemic, SurveyCTO created the [CATI Starter kit](https://support.surveycto.com/hc/en-us/articles/360044958494-Computer-Assisted-Telephone-Interviewing-CATI-starter-kit), a collection of resources and templates for creating a phone survey in SurveyCTO. Different projects at IPA have created templates based on the CATI Starter kit that address common issues encountered when conducting phone surveys.
+The SurveyCTO Template library hosts templates for both operational aspects inside SurveyCTO (like randomizing modules or how to measure module duration) and for common modules used for research. 
 
 Email [researchsupport@poverty-action.org](mailto:poverty-action.org) with any questions, comments, issues, or additions.
 
 ## 1. Multiple Attempts Template
 *Created by [Mehrab Ali](https://www.poverty-action.org/people/mehrab-ali)*
+
+In order to facilitate Computer-Assisted Telephone Interviewing (CATI) during the COVID-19 pandemic, SurveyCTO created the [CATI Starter kit](https://support.surveycto.com/hc/en-us/articles/360044958494-Computer-Assisted-Telephone-Interviewing-CATI-starter-kit), a collection of resources and templates for creating a phone survey in SurveyCTO. Different projects at IPA have created templates based on the CATI Starter kit that address common issues encountered when conducting phone surveys.
 
 The Multiple Attempts Template allows enumerators to submit one form per day for each case instead of submitting one form for each attempt. For projects that are trying to limit their number of submissions and save money, this form will drastically lower the number of submissions while saving all information of attempts for each case. 
 
