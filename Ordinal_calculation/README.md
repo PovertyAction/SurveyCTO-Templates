@@ -1,6 +1,6 @@
 # README
 
-Ordinal Calculation:
+**Ordinal Calculation:**
 
 Use this template when you have a repeat group and you need a calculate inside the repeat group that calculates the current index in an ordinal way up to the 30th position. With this you could have labels like “What is the name of the third member” instead of the usual “what is the name of the member # 3”.
 
