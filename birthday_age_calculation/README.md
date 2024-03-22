@@ -24,7 +24,7 @@ After you enter the name of the person for which you are entering the birthday, 
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/birthday_age_calculation/4_birthday_age_calculation.png" width="600" />
 
-This is how it looks like for the date type question, *please note that the "extrabutton plug-in" was used for this question
+This is how it looks like for the date type question, *please note that the "extrabutton plug-in" was used for this question*
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/birthday_age_calculation/5_birthday_age_calculation.png" width="600" />
 
