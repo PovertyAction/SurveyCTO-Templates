@@ -13,7 +13,7 @@ Use this template when you have a roster (or repeat group), and then you have an
 
 After the explanation, the template asks how many household members (or items) are in the repeat group
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/repeat_allows_selection/2_repeat_allows_selectio.png" width="600" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/repeat_allows_selection/2_repeat_allows_selection.png" width="600" />
 
  Then it asks for the name of each item inside the repeat group
 
