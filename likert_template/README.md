@@ -26,10 +26,6 @@ After the explanation, it goes showing how different likert questions could be s
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/likert_template/5_likert_template.png" width="600" />
 
- Then it shows the "compact" appearance
-
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/likert_template/5_likert_template.png" width="600" />
-
 How to incorporate "doesn't know and refuse to answer" as options. 
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/likert_template/6_likert_template.png" width="600" />
