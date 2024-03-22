@@ -10,12 +10,12 @@ Use this template when you have a repeat group and you need a calculate inside t
 
 **Images**
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/1-ordinal_calculation.png" width="600" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Ordinal_calculation/1-ordinal_calculation.png" width="600" />
 
 After the explanation, the template asks how many times you want the ordinal calculates to go (up to 30)
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/2-ordinal_calculation.png" width="600" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Ordinal_calculation/2-ordinal_calculation.png" width="600" />
 
 You get an example that calls each position in 3 different ways: the standard " # 22", ordinal with number "22nd" and ordinal only using words "twenty-second". 
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/3-ordinal_calculation.png" width="600" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Ordinal_calculation/3-ordinal_calculation.png" width="600" />
