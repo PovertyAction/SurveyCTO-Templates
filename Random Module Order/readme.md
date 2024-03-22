@@ -7,8 +7,8 @@ Given that this type of randomization grows factorially, having more than 3 modu
 
 *Images*
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/1-random_mod-order.png" width="1000" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/1-random_mod-order.png" width="800" />
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/2-random_mod_order.png" width="1000" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/2-random_mod_order.png" width="800" />
 
-<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/3-random_mod_order.png" width="1000" />
+<img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/Random%20Module%20Order/3-random_mod_order.png" width="800" />
