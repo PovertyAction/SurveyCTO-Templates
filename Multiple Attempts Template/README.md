@@ -32,3 +32,5 @@ The cases table in the tablets also has a column titled "lastdayattempt" which s
  
 ## Possible advanced usage
 This variable can be inserted as condition to not to close the case if the number of attempt days is made, but required number of attempts per day is not made. 
+
+*Template created by [Mehrab Ali](https://www.poverty-action.org/people/mehrab-ali)*
