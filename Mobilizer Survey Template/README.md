@@ -54,3 +54,5 @@ This is the mobilizer form xlsform. Adjust the languages choice list to the lang
 ### Phone Survey Form.xlsx
 
 This is the phone survey xlsform. Add your project's consent script in `consent_note` and include all your survey variables within the `app_grp` group. 
+
+*Template created by [Ishmail Azindoo Baako](https://www.poverty-action.org/people/ishmail-azindoo-baako)*
