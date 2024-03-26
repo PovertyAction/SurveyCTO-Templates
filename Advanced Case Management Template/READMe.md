@@ -42,3 +42,5 @@ An example file of the cases dataset. Replace the example data with your project
 This zip file allows you to use the [SurveyCTO field plug-in](https://github.com/surveycto/launch-sms), so enumerators can text respondents directly from the SurveyCTO Collect app. Include this entire file when attaching. 
 
 __If you have any issues or ideas for this template, please create an issue on this repository or email researchsupport@poverty-action.org.__ 
+
+*Template created by [Isabel Ávila](https://www.poverty-action.org/people/isabel-%C3%A1vila), [Carlos Bohm](https://www.poverty-action.org/people/carlos-bohm), and [Pablo Ramos](https://www.poverty-action.org/people/pablo-ramos)*
