@@ -25,6 +25,6 @@ Some extra instructions
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/PHQ-A and GADD-7/phq_a2.png" width="600" />
 
-How the questions look like. This template uses the [clickable-svg field plug in](https://github.com/surveycto/clickable-svg/tree/master), and the svgs used are named "phq_test8.svg" and "phq_a1.svg" and "gad_7.svg".
+How the questions look like. This template uses the [clickable-svg field plug in](https://github.com/surveycto/clickable-svg/tree/master), and the svgs used are named "phq_test8.svg" , "phq_a1.svg" and "gad_7.svg".
 
 <img src="https://github.com/PovertyAction/SurveyCTO-Templates/blob/master/PHQ-A and GADD-7/phq_a3.png" width="600" />
