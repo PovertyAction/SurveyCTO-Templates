@@ -73,8 +73,8 @@ Use the [Repeat that allows selection Template](https://github.com/PovertyAction
 
 [repeat group] [roster] [select_one] [selection] [order] [calculate] [operational]
 
-## 12. Repeat that allows selection
+## 12. PHQ-A and GADD-7
 
 Use this module to ask the Phq-9 questions and the Gad7 questions.
 
-[module] [phq_9][gad7]
+[module] [phq_a] [gadd_7] [phqa] [gadd7]
