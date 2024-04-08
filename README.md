@@ -72,3 +72,9 @@ Use the [Module durations template](https://github.com/PovertyAction/SurveyCTO-T
 Use the [Repeat that allows selection Template](https://github.com/PovertyAction/SurveyCTO-Templates/tree/master/repeat_allows_selection) when you have a roster (or repeat group), and then you have another repeat group in which you decide the order in which you will respond about the items in the first repeat group. For example: You could first list all the household members (Carlos, Luisa and Jake) and then decide the member order based on their disponibility, not necessarily the same order you used in the beginning.
 
 [repeat group] [roster] [select_one] [selection] [order] [calculate] [operational]
+
+## 12. Repeat that allows selection
+
+Use this module to ask the Phq-9 questions and the Gad7 questions.
+
+[module] [phq_9][gad7]
