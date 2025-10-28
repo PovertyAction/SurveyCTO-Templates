@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset>
     <definition>
-        <id>cases</id>
-        <title>Cases</title>
+        <id>cases_mobilizer</id>
+        <title>Mobilizer cases</title>
         <datasetType>SERVER</datasetType>
-        <fieldNames>id,name,formids,users,phone1,phone2,last_call,num_calls,callback_time,scto_saved_count,scto_sent_count</fieldNames>
+        <fieldNames>id,name,formids,users,phone1,phone2,last_call,num_calls,callback_time,next_call,label,roles,sortby</fieldNames>
         <formLinks>
             <formLink>
                 <formId>phone_survey_mobilzer_form</formId>
@@ -13,22 +13,26 @@
                 <formId>phone_survey_form</formId>
             </formLink>
         </formLinks>
-         <dataLinks>
+        <dataLinks>
             <dataLink>
                 <dataLinkClass>FORM</dataLinkClass>
                 <dataLinkType>INCOMING</dataLinkType>
+                <dataLinkFormat>0</dataLinkFormat>
                 <linkObjectId>phone_survey_mobilzer_form</linkObjectId>
-                <fieldMap>{"caseid":"id","pb_users":"users","pb_formids":"formids","pb_last_call":"last_call","pb_num_calls":"num_calls","pb_next_call_disp":"callback_time"}</fieldMap>
+                <fieldMap>[{"formField":"caseid","datasetField":"id","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_users","datasetField":"users","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_formids","datasetField":"formids","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_last_call","datasetField":"last_call","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_num_calls","datasetField":"num_calls","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_next_call_disp","datasetField":"callback_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_next_call","datasetField":"next_call","updateLogicAction":"REPLACE","updateLogicOptions":null}]</fieldMap>
                 <joiningField>caseid</joiningField>
                 <relevanceField></relevanceField>
+                <isAutoConfigured>false</isAutoConfigured>
             </dataLink>
             <dataLink>
                 <dataLinkClass>FORM</dataLinkClass>
                 <dataLinkType>INCOMING</dataLinkType>
+                <dataLinkFormat>0</dataLinkFormat>
                 <linkObjectId>phone_survey_form</linkObjectId>
-                <fieldMap>{"caseid":"id","pb_users":"users","pb_last_call":"last_call","pb_num_calls":"num_calls","pb_next_call_disp":"callback_time"}</fieldMap>
+                <fieldMap>[{"formField":"caseid","datasetField":"id","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_users","datasetField":"users","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_last_call","datasetField":"last_call","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_num_calls","datasetField":"num_calls","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_next_call_disp","datasetField":"callback_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pb_next_call","datasetField":"next_call","updateLogicAction":"REPLACE","updateLogicOptions":null}]</fieldMap>
                 <joiningField>caseid</joiningField>
                 <relevanceField></relevanceField>
+                <isAutoConfigured>false</isAutoConfigured>
             </dataLink>
         </dataLinks>
         <caseManagementOptions>
@@ -44,10 +48,11 @@
                 <columnNames>last_call</columnNames>
                 <columnNames>num_calls</columnNames>
                 <columnNames>callback_time</columnNames>
-                <columnNames>scto_saved_count</columnNames>
-                <columnNames>scto_sent_count</columnNames>
             </showColumnsWhenTable>
         </caseManagementOptions>
+        <discriminator>CASES</discriminator>
+        <uniqueRecordField>id</uniqueRecordField>
+        <allowOfflineUpdates>false</allowOfflineUpdates>
     </definition>
     <instance>
         <version>1</version>

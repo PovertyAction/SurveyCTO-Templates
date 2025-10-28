@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataset>
     <definition>
-        <id>cases</id>
-        <title>Cases</title>
+        <id>cases_multiple_attempts</id>
+        <title>CATI multiple attempts cases</title>
         <datasetType>SERVER</datasetType>
-        <fieldNames>id,label,formids,users,roles,sortby,full_name,address,num_calls,last_call_status,needs_review,callback_time,contacts,best_phone,phone_1,phone_1_name,phone_1_rel,phone_2,phone_2_name,phone_2_rel,phone_3,phone_3_name,phone_3_rel,phone_4,phone_4_name,phone_4_rel,phone_5,phone_5_name,phone_5_rel,attempt_1_time,attempt_1_status,attempt_2_time,attempt_2_status,attempt_3_time,attempt_3_status,attempt_4_time,attempt_4_status,attempt_5_time,attempt_5_status,attempt_6_time,attempt_6_status,consent,now_complete,now_closed,phones_filter,comments,attemptany</fieldNames>
+        <fieldNames>id,label,formids,users,roles,sortby,full_name,address,num_calls,last_call_status,needs_review,callback_time,contacts,best_phone,phone_1,phone_1_name,phone_1_rel,phone_2,phone_2_name,phone_2_rel,phone_3,phone_3_name,phone_3_rel,phone_4,phone_4_name,phone_4_rel,phone_5,phone_5_name,phone_5_rel,attempt_1_time,attempt_1_status,attempt_2_time,attempt_2_status,attempt_3_time,attempt_3_status,attempt_4_time,attempt_4_status,attempt_5_time,attempt_5_status,attempt_6_time,attempt_6_status,consent,now_complete,now_closed,phones_filter,comments,lastdayattempt</fieldNames>
         <formLinks>
             <formLink>
-                <formId>cati_advanced_kit</formId>
+                <formId>cati_advanced_kit_attempts</formId>
             </formLink>
         </formLinks>
         <dataLinks>
             <dataLink>
                 <dataLinkClass>FORM</dataLinkClass>
                 <dataLinkType>INCOMING</dataLinkType>
-                <linkObjectId>cati_advanced_kit</linkObjectId>
-                <fieldMap>{"caseid":"id","primary_phone":"best_phone","name_ph1":"phone_1_name","name_ph2":"phone_2_name","name_ph3":"phone_3_name","rel_ph1":"phone_1_rel","rel_ph2":"phone_2_rel","rel_ph3":"phone_3_rel","filter_phones":"phones_filter","callback_time":"callback_time","new_sortby":"sortby","consent":"consent","call_status_label":"last_call_status","call_num":"num_calls","needs_review":"needs_review","now_complete":"now_complete","pub_to_users":"users","attempt_1_time":"attempt_1_time","attempt_2_time":"attempt_2_time","attempt_3_time":"attempt_3_time","attempt_4_time":"attempt_4_time","attempt_5_time":"attempt_5_time","attempt_6_time":"attempt_6_time","attempt_1_status":"attempt_1_status","attempt_2_status":"attempt_2_status","attempt_3_status":"attempt_3_status","attempt_4_status":"attempt_4_status","attempt_5_status":"attempt_5_status","attempt_6_status":"attempt_6_status","instanceName":"label","phone2":"phone_2","phone3":"phone_3","update_contacts":"contacts","name_ph4":"phone_4_name","name_ph5":"phone_5_name","rel_ph4":"phone_4_rel","rel_ph5":"phone_5_rel","phone4":"phone_4","phone5":"phone_5","now_closed":"now_closed","comments":"comments", "attemptany":"lastdayattempt"}</fieldMap>
+                <dataLinkFormat>0</dataLinkFormat>
+                <linkObjectId>cati_advanced_kit_attempts</linkObjectId>
+                <fieldMap>[{"formField":"caseid","datasetField":"id","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"primary_phone","datasetField":"best_phone","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"name_ph1","datasetField":"phone_1_name","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"name_ph2","datasetField":"phone_2_name","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"name_ph3","datasetField":"phone_3_name","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"rel_ph1","datasetField":"phone_1_rel","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"rel_ph2","datasetField":"phone_2_rel","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"rel_ph3","datasetField":"phone_3_rel","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"filter_phones","datasetField":"phones_filter","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"callback_time","datasetField":"callback_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"new_sortby","datasetField":"sortby","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"consent","datasetField":"consent","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"call_status_label","datasetField":"last_call_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"call_num","datasetField":"num_calls","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"needs_review","datasetField":"needs_review","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"now_complete","datasetField":"now_complete","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"pub_to_users","datasetField":"users","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_1_time","datasetField":"attempt_1_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_2_time","datasetField":"attempt_2_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_3_time","datasetField":"attempt_3_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_4_time","datasetField":"attempt_4_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_5_time","datasetField":"attempt_5_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_6_time","datasetField":"attempt_6_time","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_1_status","datasetField":"attempt_1_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_2_status","datasetField":"attempt_2_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_3_status","datasetField":"attempt_3_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_4_status","datasetField":"attempt_4_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_5_status","datasetField":"attempt_5_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attempt_6_status","datasetField":"attempt_6_status","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"instanceName","datasetField":"label","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"phone2","datasetField":"phone_2","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"phone3","datasetField":"phone_3","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"update_contacts","datasetField":"contacts","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"name_ph4","datasetField":"phone_4_name","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"name_ph5","datasetField":"phone_5_name","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"rel_ph4","datasetField":"phone_4_rel","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"rel_ph5","datasetField":"phone_5_rel","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"phone4","datasetField":"phone_4","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"phone5","datasetField":"phone_5","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"now_closed","datasetField":"now_closed","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"comments","datasetField":"comments","updateLogicAction":"REPLACE","updateLogicOptions":null},{"formField":"attemptany","datasetField":"lastdayattempt","updateLogicAction":"REPLACE","updateLogicOptions":null}]</fieldMap>
                 <joiningField>caseid</joiningField>
                 <relevanceField></relevanceField>
+                <isAutoConfigured>false</isAutoConfigured>
             </dataLink>
         </dataLinks>
         <caseManagementOptions>
@@ -29,9 +31,15 @@
                 <columnNames>address</columnNames>
                 <columnNames>last_call_status</columnNames>
                 <columnNames>num_calls</columnNames>
-			<columnNames>lastdayattempt</columnNames>
+                <columnNames>lastdayattempt</columnNames>
+                <columnNames>callback_time</columnNames>
             </showColumnsWhenTable>
+            <otherUserCode></otherUserCode>
+            <enumeratorDatasetId></enumeratorDatasetId>
         </caseManagementOptions>
+        <discriminator>CASES</discriminator>
+        <uniqueRecordField>id</uniqueRecordField>
+        <allowOfflineUpdates>false</allowOfflineUpdates>
     </definition>
     <instance>
         <version>1</version>

@@ -1,5 +1,5 @@
 # README
-Instead of submitting forms for each attempt, submitting one form per day and storing attempts per day inside the form. This template is built on the advanced CATI template developed by SurveyCTO. Please read the SurveyCTO CATI [documentation](https://www.surveycto.com/blog/surveycto-cati/) for further details. Please note that this template can calculate attempts if SurveyCTO field plug-in [Phone call dialer](https://github.com/surveycto/phone-call-dialer/blob/master/README.md) is used. This template will not work if no plug-in or [Phone call](https://github.com/surveycto/phone-call/blob/master/README.md) plug-in is used instead.
+Instead of submitting forms for each attempt, submitting one form per day and storing attempts per day inside the form. This template is built on the advanced CATI template developed by SurveyCTO. Please read the SurveyCTO CATI [documentation](https://www.surveycto.com/blog/surveycto-cati/) for further details. Please note that this template can calculate attempts if SurveyCTO field plug-in [Phone call](https://github.com/surveycto/phone-call/blob/master/README.md) is used. In addition, you can integrate the field plug-in [Launch SMS](https://github.com/surveycto/launch-sms) to send messages directly within the form, enabling enumerators to contact respondents seamlessly as part of the call workflow.
 
 ## Attempt variables in data
 `attemptthis*` Repeated for each phone number. Records number of times called in corresponding phone number.
@@ -34,3 +34,4 @@ The cases table in the tablets also has a column titled "lastdayattempt" which s
 This variable can be inserted as condition to not to close the case if the number of attempt days is made, but required number of attempts per day is not made. 
 
 *Template created by [Mehrab Ali](https://www.poverty-action.org/people/mehrab-ali)*
+*Template updated by [Dalyo Sid Ousmane OURBA](https://poverty-action.org/people/dalyo-sid-ousmane-ourba)*
