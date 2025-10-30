@@ -43,9 +43,9 @@ The cases.xml is the cases dataset definition. This file sets up the cases serve
 
 Before uploading the cases.csv, be sure to use this dataset definition. On your SurveyCTO server, choose [+] > Add server dataset > New dataset from definition.
 
-### cases.csv
+### cases_mobilizer.csv
 
-The cases.csv file holds all the respondents that will be attempted. Keep all variable names the same and fill in with your project's respondents and phone numbers. The variables `last_call`, `num_calls`, `next_call` and `callback_time` will be empty when you begin the survey and will be updated as the mobilizer survey and phone survey are conducted.
+The cases_mobilizer.csv file holds all the respondents that will be attempted. Keep all variable names the same and fill in with your project's respondents and phone numbers. The variables `last_call`, `num_calls`, `next_call` and `callback_time` will be empty when you begin the survey and will be updated as the mobilizer survey and phone survey are conducted.
 
 ### Phone Survey Mobilizer Form.xlsx
 
@@ -56,3 +56,4 @@ This is the mobilizer form xlsform. Adjust the languages choice list to the lang
 This is the phone survey xlsform. Add your project's consent script in `consent_note` and include all your survey variables within the `app_grp` group. 
 
 *Template created by [Ishmail Azindoo Baako](https://www.poverty-action.org/people/ishmail-azindoo-baako)*
+*Template updated by [Dalyo Sid Ousmane OURBA](https://poverty-action.org/people/dalyo-sid-ousmane-ourba)*
